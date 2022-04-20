@@ -1,0 +1,14 @@
+The FileContent property is used to read the contents of the file into a byte array.
+ When the user clicks the Upload file button, the contents of the file are displayed as bytes in a text box on the page.
+
+files are human readable, that is to say they can be displayed on a terminal or printed on a printer and read.
+There is no guarantee that the reader will understand it but at least should be able to recognise it as text.
+Text files can be created by word processors and are used to store such things as program documentation, 
+program sources and simple data files. Text files can be easily moved from one computer to another.
+
+BINARY
+    files are not for humans to read, only for computers. 
+    Trying to display them on a terminal will almost certainly send the terminal crazy (although no harm is done) and trying to print them will just waste lots of paper. 
+    Binary files are created by computer programs and are used to hold such things as other computer programs and complex data files.
+    The information is stored in exactly the right form for the computer to process which generally means that binary files are
+     more compact and more rapidly read or written than text files but different computers work in different ways so moving binary files from one to another may be difficult or even impossible. 
